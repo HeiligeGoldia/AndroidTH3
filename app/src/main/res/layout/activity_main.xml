@@ -99,4 +99,17 @@
         tools:layout_editor_absoluteX="213dp"
         tools:layout_editor_absoluteY="511dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:background="@drawable/border"
+        android:drawableRight="@drawable/vector"
+        android:text="4 Màu-Chọn Màu"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="554dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
