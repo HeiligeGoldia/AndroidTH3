@@ -81,14 +81,6 @@
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="511dp" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/group_1"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="511dp" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="359dp"
@@ -98,5 +90,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="657dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="20"
+        android:layout_height="20"
+        app:srcCompat="@drawable/group_1"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="511dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
